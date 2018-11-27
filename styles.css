@@ -15,6 +15,11 @@ html,body {
   background: #FFFFFF;
 }
 
+.header {
+  position: relative;
+  z-index: 9;
+}
+
 h1 {
   position: absolute;
   top: 17vh;
@@ -51,7 +56,7 @@ h2 {
   float: right;
   border: 1px transparent solid;
   margin-top: 21vh;
-  margin-left: 51vw;
+  margin-left: 58vw;
 }
 
 .nav a {
@@ -87,7 +92,7 @@ h2 {
   border-left: 1px solid #2c241b;
   height: 90px;
   top: 18vh;
-  left: 51vw;
+  left: 54vw;
 }
 
 .portfolio {
@@ -229,6 +234,7 @@ h2 {
   }
   .about-container {
     top: 24vh;
+    left: 36vh;
   }
   .about-container img {
     float: none;
@@ -237,6 +243,12 @@ h2 {
   h2 {
     text-align: center;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .about-container {
+    top: 24vh;
+    left: 25vh;
 }
 
 @media screen and (max-width: 450px) { s
@@ -262,8 +274,9 @@ h2 {
     text-align: center;
   }
   #gridbox {
-    margin-top: 37vh;
-    left: -7vw;
+    margin-top: -11vh;
+    left: -45vw;
+    padding-bottom: 100px;
   }
   .pbackground {
     top: 41vh;

@@ -28,20 +28,30 @@ h4 {
   width:80%;
 }
 
-a {
-  color: #adc8e1 !important;
-  background: #FFFFFF;
+.about-links {
+  top: 15px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.about-links a {
+  color: #FFFFFF !important;
+  background: #adc8e1;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  margin-top: 10px;
+  padding: 10px;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   -moz-transition: 0.5s ease;
   -o-transition: 0.5s ease;
+  text-decoration: none;
 }
 
-a:hover {
-  color: #FFFFFF !important;
-  background-color: #adc8e1!important;
+.about-links a:hover {
+  color: #2c241b !important;
+  background-color: #FFFFFF!important;
+  border: 1px solid #2c241b;
   text-decoration: none;
 }
 
@@ -52,7 +62,5 @@ a:hover {
 @media screen and (max-width: 450px) {
   .about {
     margin-top: 60px;
-    margin-left:30px;
-    text-align: center;
   }
 }
