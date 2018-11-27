@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>d e v e l o p & conquer</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800" rel="stylesheet">
+    <title>d e v e l o p & conquer | about</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800" rel="stylesheet">
   
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <!-- Style-CSS -->
-  <link rel="stylesheet" type="text/css" href="styles.css" /> 
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> 
-  <!-- Bootstrap-Core-CSS -->
-
-</head>
+    <!-- Style-CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="contact-styles.css" /> 
+  
+  </head>
 <body>
 
 <div class="topbar" style="background-image: url('images/marble-2371776_1920.jpg')"></div>
@@ -55,25 +51,30 @@
   <a href="/contact.html"><img src="images/email.png" alt="email" /></a>
 </div>
 
-<div class="portfolio">
-  <div id="gridbox">
-    <a href="https://apps2.neb-one.gc.ca/pipeline-incidents/" target="_blank">
-      <div class="portfolio-item" style="background-image: url('images/pipelineIncidents.png');">
-        <div class="portfolio-title" style="background-image: url('images/marble-2371776_1920.jpg');">
-          <span>pipeline incidents</span>
-        </div>
-      </div>
-    </a>
-    <a href="https://apps2.neb-one.gc.ca/pipeline-incidents/" target="_blank">
-      <div class="portfolio-item" style="background-image: url('images/importsExports.png')">
-        <div class="portfolio-title" style="background-image: url('images/marble-2371776_1920.jpg');">
-          <span>imports and exports</span>
-        </div>
-      </div>
-    </a>
-  </div>
-  <div class="pbackground"></div>
+<div class="contact">
+  <h3>contact</h3>
+  <hr/>
+  <h4>For questions or collaboration, please feel free to fill out the form below</h4>
+  <form name="contact" method="POST" netlify>
+  <table>
+    <tr>
+      <td><label>name:</label></td>
+      <td><input type="text" name="name" /></td>
+    </tr>
+    <tr>
+      <td><label>email:</label></td>
+      <td><input type="email" name="email" /></td>
+    </tr>
+    <tr>
+      <td><label style="margin-top: -37px; position: absolute;">message:</label></td>
+      <td><textarea name="message"></textarea></td>
+    </tr>
+  </table>
+  <p>
+    <button type="submit">send</button>
+  </p>
 </div>
+
 
 <div class="footer">
   d e v e l o p & conquer. <br />
