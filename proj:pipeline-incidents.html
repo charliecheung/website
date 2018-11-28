@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ᴅᴇᴠᴇʟᴏᴘ & ᴄᴏɴǫᴜᴇʀ | ᴄᴏɴᴛᴀᴄᴛ</title>
+  <title>ᴅᴇᴠᴇʟᴏᴘ & ᴄᴏɴǫᴜᴇʀ | ᴘɪᴘᴇʟɪɴᴇ ɪɴᴄɪᴅᴇɴᴛs</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,8 +11,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Style-CSS -->
-  <link rel="stylesheet" type="text/css" href="styles.css" />
-  <link rel="stylesheet" type="text/css" href="contact-styles.css" />
+  <link rel="stylesheet" type="text/css" href="project-styles.css" /> 
+  <link rel="stylesheet" type="text/css" href="styles.css" /> 
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> 
   <!-- Bootstrap-Core-CSS -->
 
@@ -58,28 +58,36 @@
   </div>
 </div>
 
-<div class="contact">
-  <h3>contact</h3>
+<div class="project">
+  <h3>pipeline incidents data visualization</h3>
   <hr/>
-  <h4>For questions or collaboration, please feel free to fill out the form below</h4>
-  <form name="contact" method="POST" netlify>
-  <table>
-    <tr>
-      <td><label>name:</label></td>
-      <td><input type="text" name="name" /></td>
-    </tr>
-    <tr>
-      <td><label>email:</label></td>
-      <td><input type="email" name="email" /></td>
-    </tr>
-    <tr>
-      <td><label style="margin-top: -37px; position: absolute;">message:</label></td>
-      <td><textarea name="message"></textarea></td>
-    </tr>
-  </table>
-  <p>
-    <button type="submit">send</button>
-  </p>
+  <img src="images/pipelineIncidents.png" alt="pipeline incidents data Visualization">
+</br>
+<p>
+  A few years ago, the national energy board came out with an initiative to make their data more transparent.
+  So they released a bunch of spreadsheets, thousands of columns of energy data to the public and they found out that people had no interest in reading them.</p>
+<p>
+  The NEB got together with the University of Calgary’s data visualization department to design custom visualizations for their energy data.
+</p>
+<p>
+  The pipeline incidents visualization is the second visualization that the University of Calgary and VizworX did for the NEB.
+</p>
+<p>
+  This project was completed in December of 2017 and updates its data yearly. It has been released to the public in English and French and uses Google analytics to track user events. It is also keyboard accessible and accessible for those with impaired hearing
+</p>
+
+  <div class="project-links">
+    <a href="https://github.com/NEBGitHub/incidents-pipeliniers_pipeline-incidents" target="_blank">github</a>
+    <a href="https://apps2.neb-one.gc.ca/pipeline-incidents/" target="_blank">live</a>
+  </div>
+</br>
+  <h3>project overview</h3>
+  <hr />
+  <p>Pipeline Incidents looks at incidents that happened regarding pipelines in canada and highlights the date, reason why, company name, status, etc. The data visualization is an advanced Sankey diagram with columns that can be added or removed from the main view and paths that lay between columns to show their relation. Incidents can be starred or selected to view the specific path it flows through and each category inside the columns can be filtered. If users want to see how to navigate through the data, the visualization offers a ‘Tell Me A Story’ button to guide them. This visualization’s data can be downloaded and its code is all open source on the NEB GitHub. A screenshot of the visualization can also be taken.</p>
+  <h3>technologies</h3>
+  <hr/>
+  <h4>React, Redux, Immutable, Javascript, HTML, CSS, Sass, SVG, Bitly </h4>
+</br>
 </div>
 
 <div class="footer">

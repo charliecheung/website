@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ᴅᴇᴠᴇʟᴏᴘ & ᴄᴏɴǫᴜᴇʀ | ᴄᴏɴᴛᴀᴄᴛ</title>
+  <title>ᴅᴇᴠᴇʟᴏᴘ & ᴄᴏɴǫᴜᴇʀ | ɪᴍᴘᴏʀᴛs ᴇxᴘᴏʀᴛs</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,8 +11,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Style-CSS -->
-  <link rel="stylesheet" type="text/css" href="styles.css" />
-  <link rel="stylesheet" type="text/css" href="contact-styles.css" />
+  <link rel="stylesheet" type="text/css" href="project-styles.css" /> 
+  <link rel="stylesheet" type="text/css" href="styles.css" /> 
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> 
   <!-- Bootstrap-Core-CSS -->
 
@@ -58,28 +58,36 @@
   </div>
 </div>
 
-<div class="contact">
-  <h3>contact</h3>
+<div class="project">
+  <h3>imports exports data visualization</h3>
   <hr/>
-  <h4>For questions or collaboration, please feel free to fill out the form below</h4>
-  <form name="contact" method="POST" netlify>
-  <table>
-    <tr>
-      <td><label>name:</label></td>
-      <td><input type="text" name="name" /></td>
-    </tr>
-    <tr>
-      <td><label>email:</label></td>
-      <td><input type="email" name="email" /></td>
-    </tr>
-    <tr>
-      <td><label style="margin-top: -37px; position: absolute;">message:</label></td>
-      <td><textarea name="message"></textarea></td>
-    </tr>
-  </table>
-  <p>
-    <button type="submit">send</button>
-  </p>
+  <img src="images/importsExports.png" alt="imports exports data Visualization">
+</br>
+<p>
+  A few years ago, the national energy board came out with an initiative to make their data more transparent.
+  So they released a bunch of spreadsheets, thousands of columns of energy data to the public and they found out that people had no interest in reading them.</p>
+<p>
+  The NEB got together with the University of Calgary’s data visualization department to design custom visualizations for their energy data.
+</p>
+<p>
+  The imports & exports visualization is the third visualization that the University of Calgary and VizworX did for the NEB.    
+</p>
+<p>
+  This project was completed in June of 2018 and updates its data quarterly. It has been released to the public in English and French and uses Google analytics to track user events. It is also keyboard accessible and accessible for those with impaired hearing.
+</p>
+
+  <div class="project-links">
+    <a href="https://github.com/NEBGitHub/importations-exportations_imports-exports" target="_blank">github</a>
+    <a href="https://apps2.neb-one.gc.ca/pipeline-incidents/" target="_blank">live</a>
+  </div>
+</br>
+  <h3>project overview</h3>
+  <hr />
+  <p>Imports & Exports looks at imports and exports of energy products into Canada, mostly from the United States. It uses map pieces, arrows, bar charts, and stacked bar charts to display the data. It is a very complex visualization that focuses on electricity, crude oil, natural gas, natural gas liquids and refined petroleum products. The data can be sorted by most imports or exports which can also be filtered. Depending on the price or value the energy product is measured in, this also changes the way the data is calculated. The user can play through the timeline and filter down the dates to see how it fluctuates. Some of the data is not visible so confidential points are identified to the user. This visualization’s data can be downloaded and its code is all open source on the NEB GitHub. A screenshot of the visualization can also be taken.</p>
+  <h3>technologies</h3>
+  <hr/>
+  <h4>React, Redux, Reselect, React Portal, Immutable, Javascript, HTML, CSS, Sass, SVG, Bitly </h4>
+</br>
 </div>
 
 <div class="footer">
