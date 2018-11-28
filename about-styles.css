@@ -75,5 +75,10 @@ h5 {
 @media screen and (max-width: 450px) {
   .about {
     margin-top: 60px;
+    left: 15vw;
+    width: 90%;
+  }
+  hr {
+    width: 50%;
   }
 }
