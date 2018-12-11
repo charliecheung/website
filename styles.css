@@ -15,9 +15,10 @@ html,body {
   background: #FFFFFF;
 }
 
-.header {
+.header-container {
   position: relative;
   z-index: 9;
+  height: 30vh;
 }
 
 h1 {
@@ -55,7 +56,7 @@ h2 {
   background-color: transparent;
   float: right;
   border: 1px transparent solid;
-  margin-top: 21vh;
+  margin-top: 18vh;
   margin-left: 58vw;
 }
 
@@ -96,13 +97,14 @@ h2 {
 }
 
 .gridbox {
-  position: relative;
-  top: calc(50% - -17.55em);
-  left: 56%;
+  position: absolute;
+  top: 53%;
+  left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
   display: grid;
   overflow: auto;
+  margin-bottom: 100px;
 }
 
 .portfolio-item {
@@ -181,39 +183,6 @@ h2 {
   }
 }
 
-@media screen and (max-width: 800px) { 
-  .vertical-line {
-    margin-left: 30vw;
-  }
-  .navbar {
-    margin-left: -3vh;
-  }
-  .navbar-header {
-    margin-top: 24px;
-  }
-  h2 {
-    text-align: center;
-  }
-  .about-container {
-    left: 30vw;
-  }
-  .about-container img {
-    float: none;
-    margin-left: 21px;
-  }
-  #gridbox {
-    margin-top: -5vh;
-    left: -46.8vw;
-    padding-bottom: 100px;
-  }
-  .pbackground {
-    top: 28vh;
-  }
-  .portfolio {
-    top: 13vh;
-  }
-}
-
 @media screen and (max-width: 750px) { 
   .vertical-line {
     display: none;
@@ -235,6 +204,7 @@ h2 {
   }
   h2 {
     text-align: center;
+    margin-top: -20px;
   }
   #gridbox {
     margin-top: -25vh;
@@ -245,24 +215,6 @@ h2 {
   .pbackground {
     top: 28vh;
     height: 100vh;
-  }
-  .portfolio {
-    top: 13vh;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .about-container {
-    top: 24vh;
-    left: 25vh;
-  }
-  #gridbox {
-    margin-top: -26vh;
-    left: -35.2vw;
-    padding-bottom: 100px;
-  }
-  .pbackground {
-    top: 28vh;
   }
   .portfolio {
     top: 13vh;
@@ -290,6 +242,7 @@ h2 {
   }
   h2 {
     text-align: center;
+    margin-top: -20px;
   }
   #gridbox {
     margin-top: -26vh;
