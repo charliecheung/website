@@ -16,7 +16,7 @@ hr {
 
 .about p {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1em;
   width: 70%;
 }
@@ -24,14 +24,14 @@ hr {
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
-  letter-spacing: 3px;
-  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 h4 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  letter-spacing: 1px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
   font-size: 1em;
   text-align: left;
   width: 80%;
@@ -39,8 +39,8 @@ h4 {
 
 h5 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 1.5em;
+  font-weight: 500;
+  font-size: 1.2em;
   text-align: left;
   width: 80%;
 }
@@ -55,9 +55,12 @@ h5 {
   color: #FFFFFF !important;
   background: #adc8e1;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  margin-right: 30px;
-  padding: 10px;
+  font-size: 1em;
+  padding: 10px 0 10px 0;
+  display: inline-block;
+  text-align: center;
+  width: 90px;
+  margin-right: 3%;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   -moz-transition: 0.3s ease;
