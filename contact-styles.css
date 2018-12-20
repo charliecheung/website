@@ -4,16 +4,15 @@ body {
 
 .contact {
   position: absolute;
-  top: 33vh;
   left: 32vw;
   padding-bottom: 75px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  letter-spacing: 3px;
-  font-size: 3em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 2em;
 }
 
 label {
@@ -67,15 +66,8 @@ h4 {
   text-align: left;
 }
 
-@media screen and (max-width: 750px) { 
-  .contact {
-    top: 31vh;
-  }
-}
-
 @media screen and (max-width: 450px) {
   h3 {
-    margin-top: 13vh;
     margin-left: -5vw;
   }
   table {

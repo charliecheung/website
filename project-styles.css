@@ -9,7 +9,6 @@ hr {
 
 .project {
   position: absolute;
-  top: 33vh;
   left: 19vw;
   padding-bottom: 75px;
 }
@@ -82,7 +81,6 @@ h5 {
 
 @media screen and (max-width: 450px) {
   .project {
-    margin-top: 60px;
     left: 15vw;
     width: 90%;
   }
