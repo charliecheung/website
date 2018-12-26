@@ -155,11 +155,11 @@ h2 {
   z-index: 99;
 }
 
-@media screen and (max-width: 990px) {
+/* @media screen and (max-width: 990px) {
   .portfolio {
     margin-left: 0px! important;
   }
-}
+} */
 
 @media screen and (max-width: 600px) {
   .text-container, .text-bar, .links-container, .blue-bar
@@ -173,7 +173,7 @@ h2 {
       text-align: center;
       margin-top: -20px;
     }
-  .portfolio {
+  /* .portfolio {
     margin-left: 0px!important;
-  }
+  } */
 }
