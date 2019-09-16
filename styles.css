@@ -106,12 +106,12 @@ h2 {
 
 .portfolio {
   display: inline-block;
-  width: 330px;
+  width: 530px;
   padding: 30px;
   margin: 15px;
   vertical-align: top;
   background: #e9eaed;
-  height: 250px;
+  height: 330px;
   transition: 0.3s ease-in-out;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
   font-family: 'Montserrat', sans-serif;
@@ -119,6 +119,7 @@ h2 {
   color: #2c241b;
   text-decoration: none;
   background-size: cover!important;
+  border-radius: 5px;
 }
 
 .portfolio-title {
