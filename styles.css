@@ -15,6 +15,16 @@ html,body {
   background: #FFFFFF;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #adc8e1;
+}
+
+::selection {
+  color: white;
+  background: #adc8e1;
+}
+
 a:hover {
   text-decoration: none;
 }
