@@ -107,14 +107,14 @@ h2 {
 
 .portfolio {
   display: inline-block;
-  width: 330px;
+  width: 550px;
   padding: 30px;
   margin: 15px;
   vertical-align: top;
-  background: #e9eaed;
-  height: 250px;
+  background: #fff;
+  height: 130px;
   transition: 0.3s ease-in-out;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19); */
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #2c241b;
@@ -124,16 +124,15 @@ h2 {
 
 .portfolio-title {
   display: inline-block;
-  width: 330px;
-  padding: 30px;
-  background-size: cover!important;
-  height: 75px;
+  width: 530px;
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  color: #515456;
-  font-size: 17px;
-  margin-top: 145px;
-  margin-left: -30px;
+  text-align: left;
+  font-size: 35px;
+}
+
+.portfolio img {
+  right: 0;
+  
 }
 
 .portfolio:hover {
