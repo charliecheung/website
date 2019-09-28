@@ -7,17 +7,57 @@ hr {
   margin-left: 0;
 }
 
+em {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  color: #adc8e1;
+  text-align: center!important;
+}
+
 .project {
-  position: absolute;
+  position: relative;
   left: 19vw;
-  padding-bottom: 75px;
+  padding-bottom: 55px;
+}
+
+.project img {
+  max-width: 65%;
+}
+
+.floater > * {
+  position: relative;
+  left: 19vw;
+  float:left;
+  margin-right:5px;
+}
+
+.clearfix {
+  *zoom:1 /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
 }
 
 .project p {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1em;
   width: 70%;
+}
+
+.project li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 20px;
 }
 
 .project img {
@@ -34,7 +74,7 @@ h3 {
 
 h4 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.5px;
   font-size: 1em;
   text-align: left;
@@ -43,7 +83,7 @@ h4 {
 
 h5 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.2em;
   text-align: left;
   width: 80%;
