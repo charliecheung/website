@@ -1,6 +1,6 @@
 # Personal website
 
-This static website was created using HTML and CSS to act as a portfolio.
+This static website was created using HTML and CSS to act as a portfolio and is hosted on Netlify.
 
 ## Requirements
 

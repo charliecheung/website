@@ -117,12 +117,12 @@ h2 {
 
 .portfolio {
   display: inline-block;
-  width: 550px;
+  width: 350px;
   padding: 30px;
   margin: 15px;
   vertical-align: top;
   background: #fff;
-  height: 130px;
+  /* height: 500px; */
   transition: 0.3s ease-in-out;
   /* box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19); */
   font-family: 'Montserrat', sans-serif;
@@ -132,22 +132,44 @@ h2 {
   background-size: cover!important;
 }
 
-.portfolio-title {
+.portfolio-category {
   display: inline-block;
-  width: 530px;
+  width: 330px;
   font-family: 'Montserrat', sans-serif;
   text-align: left;
-  font-size: 35px;
+  font-size: 12px;
+  color: #333;
+}
+
+.portfolio-title {
+  display: inline-block;
+  width: 330px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 21px;
+  color: #2c241b;
+}
+
+.portfolio a {
+  background: #adc8e1;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 15px;
+  left: -105px;
+  top: 30px;
+  position: relative;
+}
+
+.portfolio a:hover {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  background: white;
+  color: #2c241b;
+  border: 1.5px solid #2c241b;
 }
 
 .portfolio img {
-  right: 0;
-}
-
-.portfolio:hover {
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-  transform: scale(1.05);
+  max-height: 150px;
 }
 
 .footer {
