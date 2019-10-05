@@ -155,7 +155,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   color: white;
   padding: 15px;
-  left: -105px;
+  left: -6vw;
   top: 30px;
   position: relative;
 }
@@ -169,7 +169,7 @@ h2 {
 }
 
 .portfolio img {
-  max-height: 150px;
+  max-height: 200px;
 }
 
 .footer {
