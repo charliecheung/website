@@ -11,7 +11,7 @@ em {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 2em;
-  color: #adc8e1;
+  color: #F5A9B3;
   text-align: center!important;
 }
 
@@ -51,6 +51,7 @@ em {
   font-weight: 300;
   font-size: 1em;
   width: 70%;
+  color: #515456;
 }
 
 .project li {
@@ -58,6 +59,7 @@ em {
   font-weight: 300;
   font-size: 1em;
   line-height: 20px;
+  color: #515456;
 }
 
 .project img {
@@ -70,6 +72,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 2px;
+  color: #F5A9B3;
 }
 
 h4 {
@@ -79,6 +82,7 @@ h4 {
   font-size: 1em;
   text-align: left;
   width: 80%;
+  color: #515456;
 }
 
 h5 {
@@ -87,6 +91,7 @@ h5 {
   font-size: 1.2em;
   text-align: left;
   width: 80%;
+  color: #515456;
 }
 
 .project-links {
@@ -97,7 +102,7 @@ h5 {
 
 .project-links a {
   color: #FFFFFF !important;
-  background: #adc8e1;
+  background: #F5A9B3;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   padding: 10px 0 10px 0;
