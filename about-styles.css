@@ -9,16 +9,17 @@ hr {
 
 .about {
   position: absolute;
-  left: 25vw;
+  left: 30%;
   padding-bottom: 75px;
+  padding-top: 50px;
 }
 
 .about p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1em;
-  width: 70%;
-  color: #515456;
+  width: 50%;
+  color: #807E83;
 }
 
 h3 {
@@ -34,8 +35,9 @@ h4 {
   letter-spacing: 0.5px;
   font-size: 1em;
   text-align: left;
-  width: 80%;
-  color: #515456;
+  width: 50%;
+  line-height: 25px;
+  color: #807E83;
 }
 
 h5 {
@@ -44,7 +46,7 @@ h5 {
   font-size: 1.2em;
   text-align: left;
   width: 80%;
-  color: #515456;
+  color: #807E83;
 }
 
 .about-links {
@@ -53,36 +55,9 @@ h5 {
   padding-bottom: 15px;
 }
 
-.about-links a {
-  color: #FFFFFF !important;
-  background: #adc8e1;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  padding: 10px 0 10px 0;
-  display: inline-block;
-  text-align: center;
-  width: 90px;
-  margin-right: 3%;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  -moz-transition: 0.3s ease;
-  -o-transition: 0.3s ease;
-  text-decoration: none;
-}
-
-.about-links a:hover {
-  color: #2c241b !important;
-  background-color: #FFFFFF!important;
-  border: 1px solid #2c241b;
-  text-decoration: none;
-}
-
 @media screen and (max-width: 450px) {
   .about {
-    left: 15vw;
-    width: 90%;
-  }
-  hr {
-    width: 50%;
+    width: 120%;
+    left: 10%;
   }
 }

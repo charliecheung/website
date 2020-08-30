@@ -4,8 +4,9 @@ body {
 
 .contact {
   position: absolute;
-  left: 32vw;
+  left: 30%;
   padding-bottom: 75px;
+  padding-top: 50px;
 }
 
 h3 {
@@ -29,9 +30,9 @@ button {
   font-weight: 500;
   letter-spacing: 1px;
   font-size: 1em;
-  color: #2c241b;
+  color: #807E83;
   background-color: #FFFFFF;
-  border: 1px solid #2c241b;
+  border: 1px solid #807E83;
   float: right;
   transition: 0.3s ease-in-out;
   padding: 10px 20px;
@@ -40,52 +41,67 @@ button {
 }
 
 button:hover {
-  border: 1px solid #2c241b;
+  border: 1px solid #807E83;
   color: #FFFFFF;
-  background-color: #2c241b;
+  background-color: #807E83;
 }
 
 input {
   float: right;
   margin-top: 10px;
   width: 26vw;
-  border: 1px solid #515456;
+  border: 1px solid #807E83;
 }
 
 textarea {
+  font-family: 'Montserrat', sans-serif;
   margin-top: 10px;
   margin-left: 5vw;
   width: 26vw;
   height: 12vh;
-  border: 1px solid #515456;
+  border: 1px solid #807E83;
 }
 
 h4 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1em;
   text-align: left;
+  color: #807E83;
 }
 
-@media screen and (max-width: 450px) {
-  h3 {
-    margin-left: -5vw;
+@media screen and (max-width: 990px) {
+  .rectangle {
+    width: 25px;
+    height: 25px;
   }
-  table {
-    margin-left: -11vw;
+  h1 {
+    font-size: 16px;
   }
-  textarea {
-    margin-left: 12vw;
+  h2{
+    font-size: 14px;
+    width: 50%;
   }
-  h4 {
-    margin-left: -8vw;
-    width: 80%;
-    text-align: center;
+  .nav-container img {
+    width: 24px;
   }
-  hr {
-    margin-left: -29vw;
+  .nav-container {
+    margin-left: -25%;
   }
-  button {
-    margin-right: 34vw;
+  .portfolio p {
+    margin-left: -40px!important;
+  }
+  .container {
+    width: 25%;
+    margin-top: 100px;
+    left: 130px;
+    font-size: 16px;
+  }
+  .container span {
+    font-size: 12px!important;
+  }
+  .contact {
+    width: 60%;
+    left: 5%;
   }
 }

@@ -11,13 +11,15 @@ em {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 2em;
-  color: #515456;
+  color: #807E83;
   text-align: center!important;
 }
 
 .project {
   position: relative;
-  left: 19vw;
+  padding-top: 50px;
+  left: 30%;
+  width: 50%;
   padding-bottom: 55px;
 }
 
@@ -27,7 +29,7 @@ em {
 
 .floater > * {
   position: relative;
-  left: 19vw;
+  left: 20%;
   float:left;
   margin-right:5px;
 }
@@ -51,7 +53,8 @@ em {
   font-weight: 500;
   font-size: 1em;
   width: 70%;
-  color: #515456;
+  color: #807E83;
+  line-height: 1.5em;
 }
 
 .project li {
@@ -59,13 +62,13 @@ em {
   font-weight: 500;
   font-size: 1em;
   line-height: 20px;
-  color: #515456;
+  color: #807E83;
 }
 
 .project img {
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 55%;
 }
 
 h3 {
@@ -82,7 +85,7 @@ h4 {
   font-size: 1em;
   text-align: left;
   width: 80%;
-  color: #515456;
+  color: #807E83;
 }
 
 h5 {
@@ -91,7 +94,7 @@ h5 {
   font-size: 1.2em;
   text-align: left;
   width: 80%;
-  color: #515456;
+  color: #807E83;
 }
 
 .project-links {
@@ -117,10 +120,14 @@ h5 {
   text-decoration: none;
 }
 
+.project a:hover {
+  color: #F5A9B3;
+}
+
 .project-links a:hover {
-  color: #2c241b !important;
+  color: #F5A9B3 !important;
   background-color: #FFFFFF!important;
-  border: 1px solid #2c241b;
+  border: 1px solid #807E83;
   text-decoration: none;
 }
 
