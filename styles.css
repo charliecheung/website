@@ -78,6 +78,7 @@ h2 {
 
 .nav-text-links a {
   position: relative;
+  z-index: 9;
   font-size: 15px;
   top: 32px;
 }

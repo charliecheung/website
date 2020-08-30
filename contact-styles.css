@@ -4,6 +4,7 @@ body {
 
 .contact {
   position: absolute;
+  z-index: 0;
   left: 30%;
   padding-bottom: 75px;
   padding-top: 50px;
