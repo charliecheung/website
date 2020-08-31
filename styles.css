@@ -23,7 +23,7 @@ a:hover {
 .nav-container {
   text-align: left;
   position: relative;
-  left: 30%;
+  left: 25vw;
 }
 
 .rectangle {
@@ -89,36 +89,31 @@ h2 {
 
 .container {
   position: relative;
-  font-family: 'Montserrat', sans-serif;
   margin-top: 100px;
-  width: 20%;
-  left: 10%;
-  text-align: left;
-  font-size: 21px;
-  font-weight: 600;
-  line-height: 25px;
-  letter-spacing: 0.05em;
+  width: 10%;
 }
 
 .container a {
   text-decoration: none;
   text-transform: none;
+  font-family: 'Montserrat', sans-serif;
   color: #807E83;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0.05em;
 }
 
-.container span {
-  background-color: #F5A9B3;
-  padding: 8px;
-  color: #FFFFFF;
-  font-size: 16px!important;
-  font-weight: 400;
+.container a:hover {
+  color: #F5A9B3;
 }
 
-.portfolio {
+.portfolio-item {
   padding-top: 50px;
 }
 
-.portfolio img {
+.portfolio-item img {
   max-height: 200px;
   position:relative;
   margin-left: -400px;

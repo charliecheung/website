@@ -1,5 +1,6 @@
 body {
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 hr {
@@ -18,7 +19,8 @@ em {
 .project {
   position: relative;
   padding-top: 50px;
-  left: 30%;
+  z-index: 0;
+  left: 25vw;
   width: 50%;
   padding-bottom: 55px;
 }
