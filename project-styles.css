@@ -25,19 +25,15 @@ em {
   padding-bottom: 55px;
 }
 
-.project img {
-  max-width: 65%;
-}
-
 .floater > * {
   position: relative;
-  left: 20%;
+  left: 25vw;
   float:left;
   margin-right:5px;
 }
 
 .clearfix {
-  *zoom:1 /* for IE */
+  *zoom: 1 /* for IE */
 }
 
 .clearfix:before,
@@ -70,7 +66,7 @@ em {
 .project img {
   margin-left: auto;
   margin-right: auto;
-  width: 55%;
+  width: 100%;
 }
 
 h3 {
@@ -135,7 +131,7 @@ h5 {
 
 @media screen and (max-width: 450px) {
   .project {
-    left: 15vw;
+    left: 10vw;
     width: 90%;
   }
   hr {

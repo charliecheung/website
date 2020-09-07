@@ -58,120 +58,214 @@
   </div>
 
 <div class="project">
-  <h3>case study: collaborative canvas</h3>
+  <h3>collaborative canvas</h3>
   <hr/>
-  <img src="images/collaborative canvas/title.png" alt="collaborative canvas design">
+  <img src="images/collaborative canvas/collaborative canvas.jpg" alt="collaborative canvas design">
 </br>
   <h3>project overview</h3>
   <hr />
   <p>
-    Collaborative Canvas is an online tool meant for teachers, creatives, and remote teams. The goal of this application is to allow for real time collaboration and solve the barriers created by distance and the pain points related to remote collaboration.
+    Collaborative Canvas is an online tool meant for teachers, creatives, and remote teams. The goal of this application is to allow for real time collaboration. We want to break down the barriers that disrupt remote learning.
+  </p>
+  <p>
+    This project is based off of a term project completed in 2016 at the University of Calgary for the course 441 Computer Networks.
   </p>
   <br />
   <h3>my role</h3>
   <hr />
   <p>
-    UX Designer, Product Designer
+    On this project, I took on the role of a product designer and developer.
   </p>
   <p>
-    User Research, Interaction, Visual design, Prototyping, Usability Testing
+    The contents of this case study were completed over a 3 month time period between July - September 2019.
+  </p>
+  <p>
+    My responsibilities included: User Research, Visual design, Prototyping, Usability Testing, and developing high fidelity mock ups.
   </p>
   <br />
   <h3>problem</h3>
   <hr />
   <p>
-    Poor team collaboration is a barrier to an organization’s success.
+    Poor team collaboration and communication is a barrier to an organization’s success.
   </p>
   <p>
-    For creatives and teachers, feedback and review is crucial to designing, building empathy, and gaining perspective. However, feedback is often in human subtleties - the way a person’s eyes flickered, breathing, and facial expressions. 
+    For creatives and teachers, feedback and review is crucial to designing, building empathy, and gaining perspective. However, feedback is often in human subtleties - the way a person’s eyes flicker, their posture, and in their facial expressions.
   </p>
     <p>
-    Similarily, pictures are worth a thousand words. In education and the creative process, a collaborative effort is often lost in translation. 
+    Similarily, a picture is worth a thousand words. In education and in the creative process, taking away a real time visual leaves much to be lost in translation.
     </p>
     <p>
     Without the consideration of the human side of collaboration, it is impossible to facilitate effective workshops and provide guidance.
   </p>
+  <p>With this in mind, we were left with the following questions heading into the Discovery phase of the project:</p>
+  <li>How might we help teachers keep their students engaged?</li>
+  <li>How might we support all different types of learning?</li>
+  <li>How might we create a scalable product?</li>
   <br />
   <h3>approach / strategy</h3>
   <hr/>
   <br />
   <p>
-    I knew this tool had the potential to help teachers and tutors especially when teaching math. The first thing I did was interview math teachers and ux designers to give me some insights on what their pain points where when teaching and running remote design workshops. 
+    We knew this tool had the potential to help teachers and tutors especially when teaching math. To get more insights into the teaching mindset, we interviewed teachers and student teachers that we knew. The findings are documented below.
   </p>
-  <img src="images/collaborative canvas/user interview1.png" alt="user interview one" />
-  <img src="images/collaborative canvas/user interview2.png" alt="user interview two" />
-  <p>I highlighted their most valuable feedback in the quotes below.</p>
-  <img src="images/collaborative canvas/quotes.png" alt="user interview quotes" />
   <p>
-    After doing these qualitative interviews, I quickly realized that this app must mimic human reaction as much as possible and allow for indications to the teacher or facilitator whether or not a thought was being left unsaid. I categorized my findings into three main themes that this app must address in order to be a successful, useful product. 
+    First, we asked about their current process and teaching strategy.
   </p>
-  <img src="images/collaborative canvas/theme buckets.png" alt="theme buckets" />
+  <img style="padding-bottom: 30px" src="images/collaborative canvas/chat context how.png" alt="user interview one" />
   <p>
-    Next, I recognized that this app will be used differently depending on the user so I created user profiles based on the tasks and goals I was able to identify.
+    Based on our interviews, it seemed that most teachers rely on examples when teaching math and depending on their skill or grade level, modified their expectations and methods. We noted that whatever our solution is, it must allow for this type of flexibility.
   </p>
-  <img src="images/collaborative canvas/user profiles.png" alt="user profiles" />
+  <p style="padding-bottom: 30px">
+    Then, we asked about how they would measure success for this solution.
+  </p>
+  <img style="padding-bottom: 30px" src="images/collaborative canvas/chat context success.png" alt="user interview two" />
+  <p>
+    I was quite surprised to hear the term "accessibility" from our users without being prompted. When I asked them to expand on that, they brought forth their concern of reaching students in places where internet connection might not be stable. 
+  </p>
+  <p style="padding-bottom: 30px">
+    Another concern was the ease of use of the application. Would it seem clunky? Could it break the flow of a lesson? We shifted our interviews to detailing their remote experiences.
+  </p>
+  <img style="padding-bottom: 30px" src="images/collaborative canvas/chat context remote.png" alt="user interview two" />
+  <p>
+    The main concern we derived from our interviews about remote teaching was keeping the attention of students. There were a lot of cues teachers were able to pick up on - mostly from facial expressions. 
+  </p>
+  <p>
+    As the majority of our interviewed teachers had experience teaching remotely, they emphasized on the importance of giving students resources to use on their own time.
+  </p>
+  <p>
+    We hit another empathy point at this moment. We felt the frustration of teachers not being able to support their students fully because of the limits to remote learning.
+  </p>
+  <p>
+    As we concluded our interviews, the diligence and thoughtfulness of our interviewees left a strong impression on us.
+  </p>
+  <p>Based on our interviews above, I highlighted their most valuable feedback in the quotes below.</p>
+  <img src="images/collaborative canvas/user quotes.png" alt="user interview quotes" />
+  <p>
+    After doing these qualitative interviews, I realized that this solution must promote human action as well as reaction. I categorized my findings into three main themes that this aolution must address in order to be a successful, useful product. 
+  </p>
+  <img src="images/collaborative canvas/themes.png" alt="theme buckets" />
+  <p>
+    Next, we recognized that this solution will be used differently depending on the user so we created user profiles based on the tasks and goals I was able to identify.
+  </p>
+  <img src="images/collaborative canvas/user profile.png" alt="user profiles" />
   <br />
   <h3>conceptualization</h3>
   <hr/>
 <p>
-    For the Conceptualization phase, I started by creating the information architecture I expected the application to have then created low fidelity concepts for the primary use cases. I tested the application with teachers and designers to see if we were on the right path. Once I was confident in the design, I was able to begin creating the high fidelity designs.
+  For the conceptualization phase, I started by creating a journey map for each of our three main user groups: teachers, facilitators, and students. In these journey maps, I wanted to visualize the experience of the user over time. How might their service experience look to them and how can we design it in an engaging way? In the journey map below, I illustrated the experience of a student who I identified as the main actor.
 </p>  
-  <img src="images/collaborative canvas/concepts.png" alt="collaborative canvas low fi conceptualization">
+  <img src="images/collaborative canvas/journey map.png" alt="collaborative canvas journey map">
   </br>
+  <p>I listed out the steps in their journey and communication channels at every step. I also included a rating on the dramatic arc depending on their experience at a given point with 1 being very low and 5 being very high.</p>
+  <p>
+    Keeping in mind that the main feature of Collaborative Canvas would be the draw tool, I structured my mock ups for tablets. As we expected most users to be using this application with a pen in hand, we recognized that this limits the types of interactions we could apply. It would be disruptive and clunky to force a user to put down their pen in order to interact with the interface. Additionally forcing users to have to use their non-dominant hand for select and drag gestures might be clumsy. So for all of the interactions in Collaborative Canvas, we made sure to design our interface so that each action could be done using a tap.
+  </p>
+  <p style="padding-bottom: 30px">
+    At this point, I created medium fidelity wireframes for a tablet application to help validate the workflow of teachers, facilitators, and students. Then, I took these to our users to test.
+  </p>
+  <img style="padding-bottom: 30px" src="images/collaborative canvas/medium fidelity.png" alt="collaborative canvas journey map">
+</br>
+<p>
+  In a wizard of oz testing session, I asked testers to complete the following tasks:</p>
+<li>start a meeting with someone</li>
+<li>write a chat message to someone in a meeting</li>
+<li>draw on the Canvas</li>
+<li>erase something on the Canvas</li>
+<li>identify the speaker in a group meeting</li>
+<li>export the Canvas as a mp4</li>
+<br />
+<p>
+  Since the main objective of our wizard of oz testing sessions were task based, we concluding with a set of qualitative questions to gauge the success of the wireframes. A sample of the questions we asked are listed below.
+</p>
+<li>how was your experience using Collaborative Canvas?</li>
+<li>what factors influenced your experience?</li>
+<li>what information did you feel supported your role?</li>
+<li>what barriers do you see could impact a person's use of Collaborative Canvas?</li>
+<li>how easy was it to do certain tasks?</li>
+<li>how do you feel about the layout of the application?</li>
+<li>Would you use Collaborative Canvas again?</li>
+<br />
+<p>
+  After completing three rounds of testing, we were able to identify changes that would result in a smoother user experience. These changes are featured in the solution below.
+</p>
+<br />
   <h3>solution</h3>
   <hr/>
   <p>
-    Collaborative Canvas makes it easy to connect and collaborate with others - providing eloquent, simple, and human feedback remotely.
+    Collaborative Canvas makes it easy to connect and collaborate with others - providing an eloquent and simple solution to real time remote teaching.
   </p>
   <p>
-    Efficiently and personally, communicate ideas and thoughts between individuals or groups. 
+    It efficiently communicates ideas and thoughts between individuals or groups. 
   </p>
+  <br />
+  <img style="padding-bottom: 30px;" src="images/collaborative canvas/main dashboard.png" alt="collaborative canvas home screen">
+    <p>
+      Collaborative Canvas' homepage gives us a snapshot of the available features. As a tablet application, we wanted to give users their most important features on the right hand side given most users are right hand dominant.
+    </p>
+    <p>
+      Users are able to view their chats and create a new one from the top right hand corner. The highlight of the page are recently created Canvas'. Based on our research, we thought having access to recent Canvas' would be the most valuable for our users so they should be able to scroll through a grid or list of Canvas'.
+    </p>
+    <p>
+      On the left hand side, we have a list of meetings upcoming for our user so they can keep track of their prep sessions, tutoring lessons, or any other meetings.
+    </p>
+    <br />
 </div>
+<br />
 <div class="clearfix floater">
-  <img style="max-width: 250px;" src="images/collaborative canvas/home.png" alt="collaborative canvas home screen">
+  <img style="max-width: 400px;" src="images/collaborative canvas/meeting functionality.png" alt="collaborative canvas facilitator call">
   <div class="project" style="max-width: 500px">
     <p style="padding: 20px;">
-      Collaborative Canvas opens up a home screen that allows users to set their status, make a call, start a chat, and search through a list on contacts.
+      When in a meeting, the user is given tools such as: export, mute, chat, invite, signal, and end the call. Users can also choose their own colour to use when drawing on the Canvas. All drawing features are placed on the right hand side of the Canvas. Images can be added onto the Canvas and written on top of.
     </p>
     <br />
     </div>
 </div>
 <br />
 <div class="clearfix floater">
-  <img style="max-width: 400px;" src="images/collaborative canvas/call_faciliatator.png" alt="collaborative canvas facilitator call">
+  <img style="max-width: 400px;" src="images/collaborative canvas/timer.png" alt="collaborative canvas call notify">
   <div class="project" style="max-width: 500px">
     <p style="padding: 20px;">
-      As the facilitator, users are able to see all participants on the canvas and are given tools such as: record, share, chat, add a user, import, and end call. For documentation, the record tool lets users keep a copy of the chat messages, audio, and whatever was drawn on the canvas during the call. For the 'share' option, users can choose to export the canvas or send a link. Other features include being able to set the colour the user writes in, the stroke thickness, and an eraser tool.
+      The meeting organizer will be given additional features such as a timer to keep time in their session. The timer gives users the ability to countdown from a customizable time and add to it if needed. This feature is also perfect for teachers wanting to quiz a student. We also chose to keep a border on our Canvas as we felt a completely blank screen made for an intimidating atmosphere for our users. 
     </p>
     <br />
     </div>
 </div>
 <br />
 <div class="clearfix floater">
-  <img style="max-width: 400px;" src="images/collaborative canvas/call_notify.png" alt="collaborative canvas call notify">
+  <img style="max-width: 400px;" src="images/collaborative canvas/signal.png" alt="collaborative canvas call user">
   <div class="project" style="max-width: 500px">
     <p style="padding: 20px;">
-      Facilitators are able to see if a user has a comment or question through the notification on a user's icon. This is hidden from the other users in the canvas and only available for the facilitator. This feature is best for introverted users that have a comment.
+      One of the goals of Collaborative Canvas is to support all users. For the participants that might not be as outspoken, we've included a signal feature for users where they can notify the facilitator if they have a comment or question. This signal will only appear on the facilitator's screen and be hidden from the rest of the meeting participants.
     </p>
     <br />
     </div>
 </div>
 <br />
 <div class="clearfix floater">
-  <img style="max-width: 400px;" src="images/collaborative canvas/call_user.png" alt="collaborative canvas call user">
+  <img style="max-width: 400px;" src="images/collaborative canvas/chat.png" alt="collaborative canvas chat open">
   <div class="project" style="max-width: 500px">
     <p style="padding: 20px;">
-      From the user's side, this is their window into the canvas. With the same functionality as the facilitator, the only differences include the coloured icon near the bottom of the screen. If the user would like to have a chance to speak or ask a question, they can click the icon to let the facilitator know rather than risk interrupting the current speaker. These notifiers will not be visible to other users. 
+      For users that learn best through written instructions, a sidebar for chat messages is available for the users to use. By default, this chat bar is hidden to give the Canvas as much room as possible and it is made semi-transparent.
     </p>
     <br />
     </div>
 </div>
 <br />
 <div class="clearfix floater">
-  <img style="max-width: 400px;" src="images/collaborative canvas/chat open.png" alt="collaborative canvas chat open">
+  <img style="max-width: 400px;" src="images/collaborative canvas/calc.png" alt="collaborative canvas call user">
   <div class="project" style="max-width: 500px">
     <p style="padding: 20px;">
-      A chat window is also available for any written comments the users want to share. If selected, the chat window will open while it is hidden by default.
+      To support one of our primary user groups, math teachers, Collaborative Canvas provides a simple calculator. Writing down any simple BEDMAS equation will let the Canvas know it should calculate that equation and the answer will appear on the screen.
+    </p>
+    <br />
+    </div>
+</div>
+<br />
+<div class="clearfix floater">
+  <img style="max-width: 400px;" src="images/collaborative canvas/export.png" alt="collaborative canvas call user">
+  <div class="project" style="max-width: 500px">
+    <p style="padding: 20px;">
+      When your Canvas is completed, you can export your Canvas into mp4, wav format for a time lapse version of your Canvas. If you would like to export an image of your current Canvas, choose between a jpg, png, or svg option.
     </p>
     <br />
     </div>
@@ -179,10 +273,26 @@
 <br />
 <div class="project">
   </br>
-  <h3>project learning</h3>
+  <h3>impact & future state</h3>
   <hr/>
   <p>
-    This application is still in it's initial conceptualization phase and has a lot of potential once a cohesive branding is created. As an MVP, I imagine the next phase for Collaborative Canvas would involve more user testing and fleshing out some of the polished functionality notable in communication applications such as Skype or Microsoft Teams. The highlight of Collaborative Canvas is the priority that drawing and annotations have. I think this application has a huge potential for entertainment streaming services such as Twitch, where it would be a great app for artists to collaborate together. Additional features I would like to see would be inspired from drawing applications such as Paint Tool Sai and Procreate - where users are able to play and customize brushes and draw on individual layers.
+    After presenting this MVP product to our end users, they were thrilled we were able to incorporate their feedback into an application that felt customized to their workflow and future features were brought to the table with much excitement from our users.
+  </p>
+  <p>
+    As we expanded on this idea of a Collaborative Canvas, users wanted more options for pens and brushes. Users mentioned having the option to customize different aspects of their pen like the brush feathering, stroke size, colour palette, and many more options
+  </p>
+  <p>
+    Taking a deeper dive into this idea, our users expressed interest in the possibility of turning the Collaborative Canvas into an actual art board. Our users commented on how nice it would be to let users work in layers to create more complex art.
+  </p>
+  <p>
+    Another feature that users thought would be a nice additional was the option to stream directly to YouTube or Twitch.
+  </p>
+</div>
+<div class="project">
+  <h3>project retrospective</h3>
+  <hr/>
+  <p>
+    This application is still in it's initial conceptualization phase and has a lot of potential once a cohesive branding is created. As an MVP, I imagine the next phase for Collaborative Canvas would involve more user testing and fleshing out some of the polished functionality notable in communication applications such as Skype or Microsoft Teams. The highlight of Collaborative Canvas is it's focus on drawing. This is one of the first projects that I truly understood what empathy meant as a designer. I think we had this moment with the users where everything just "clicked" and I heard the "why" beyond their words. As I continue to design other solutions, I hope to remember that this is the feeling I should always strive towards having.
   </p>
   </br>
 </div>
