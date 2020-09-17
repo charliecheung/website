@@ -99,7 +99,6 @@ h2 {
   text-align: left;
   font-size: 34px;
   font-weight: 600;
-  background-color: #F5A9B3;
   padding: 15px;
 }
 
@@ -112,7 +111,7 @@ h2 {
 }
 
 .portfolio-text a:hover {
-  border-radius: 14px;
+  background-color: #F5A9B3!important;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   -moz-transition: 0.5s ease;
