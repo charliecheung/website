@@ -163,4 +163,10 @@ h2 {
   .nav-container {
     margin-left: -22%;
   }
+  .nav-text-links a {
+    position: relative;
+    z-index: 9;
+    font-size: 10px;
+    top: 32px;
+  }
 }
