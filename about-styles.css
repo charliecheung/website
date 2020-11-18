@@ -57,6 +57,28 @@ h5 {
   padding-bottom: 15px;
 }
 
+.superpeer a {
+  background-color: #F5A9B3; 
+  color: #ffffff; 
+  padding: 15px; 
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  width: 30%;
+  letter-spacing: 0.05em;
+}
+
+.superpeer a:hover {
+  background-color: #97B2E7!important;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+
 @media screen and (max-width: 450px) {
   .about {
     width: 120%;
