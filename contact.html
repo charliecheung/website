@@ -8,7 +8,7 @@
   <meta property="og:image" content="images/logo.png">
   <meta property="og:type" content="article" />
  
-  <title>about.</title>
+  <title>contact.</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -19,7 +19,7 @@
 
   <!-- Style-CSS -->
   <link rel="stylesheet" type="text/css" href="styles.css" />
-  <link rel="stylesheet" type="text/css" href="about-styles.css" />
+  <link rel="stylesheet" type="text/css" href="contact-styles.css" />
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> 
   <!-- Bootstrap-Core-CSS -->
 
@@ -41,28 +41,32 @@
 
   </div>
 
-  <div class="about">
-    <p>about.</p>
+  <div class="contact-form">
+    <p>contact.</p>
     <br />
     <p style="font-size: 24px; width: 75%; line-height: 32px;">
-      Hi, I'm Charlie and I am a user experience design consultant in Calgary, Alberta, Canada.
+      For questions, collaboration, and business inquiries, please fill out the form below.
     </p>
-    <br />
-    <p style="font-size: 24px; width: 75%; line-height: 32px;">
-      As a software developer turned ux designer, I act as the bridge between designers and developers in creating beautiful and usability driven applications.
+
+    <form name="contact" method="POST" data-netlify="true" netlify action="/contact-success.html">
+    <table>
+      <tr>
+        <td><label>name:</label></td>
+        <td><input type="text" name="name" /></td>
+      </tr>
+      <tr>
+        <td><label>email:</label></td>
+        <td><input type="email" name="email" /></td>
+      </tr>
+      <tr>
+        <td><label>message:</label></td>
+        <td><textarea name="message"></textarea></td>
+      </tr>
+    </table>
+    <p>
+      <button type="submit">send</button>
     </p>
-    <br />
-    <p style="font-size: 24px; width: 75%; line-height: 32px;">
-      My responsibilities on a team are a unique blend of consultant, designer, and developer. At it's core, my mission is to provide the most outstanding service experience for clients and users. This prioritization of service design has led me to developing expertise in user research, usability testing, business and data analytics, and user interface design.
-    </p>
-    <br />
-    <p style="font-size: 24px; width: 75%; line-height: 32px;">
-      When I'm not coding or designing, I'm a taekwondo and tai chi instructor. I've also started creating videos about UX on YouTube and started a mentorship program where I educate UX designers and UX designers to be in my spare time!
-    </p>
-    <br />
-    <p style="font-size: 24px; width: 75%; line-height: 32px;">
-      As for down time? You can find me cooking, drawing, gaming, or spending time with my pets.
-    </p>
+    </form>
   </div>
 
   <div class="contact">

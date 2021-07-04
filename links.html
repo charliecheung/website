@@ -7,56 +7,103 @@
   <meta property="og:description" content="portfolio website of charlie cheung">
   <meta property="og:image" content="images/logo.png">
   <meta property="og:type" content="article" />
-
-  <link rel="icon" 
-  type="image/png" 
-  href="https://drive.google.com/file/d/1gI0vgLPrBF00GD9Pb0iN1Wq4AEN-iJW_/view?usp=sharing">
  
-  <title>links</title>
+  <title>hi, i'm charlie.</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700,800" rel="stylesheet">
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Style-CSS -->
   <link rel="stylesheet" type="text/css" href="styles.css" />
-  <link rel="stylesheet" type="text/css" href="about-styles.css" />
+  <link rel="stylesheet" type="text/css" href="links.css" />
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> 
   <!-- Bootstrap-Core-CSS -->
 
 </head>
 <body>
+<!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+<nav role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="/"><li>work</li></a>
+      <a href="/about"><li>about</li></a>
+      <a href="/mentorship"><li>mentorship</li></a>
+      <a href="/contact"><li>contact</li></a>
+      <a href="https://drive.google.com/file/d/1F6MEl1RcbkNN6DwQ9uDUJBqOtfxFDQwG/view?usp=sharing" target="_blank"><li>resume</li></a>
+    </ul>
+  </div>
+</nav>
 
-  <div class="nav-container">
-
-    <div class="rectangle" style="background-color: #FFBCBC;"></div>
-    <div class="rectangle" style="background-color: #84ACDE;"></div>
-    <div class="rectangle" style="background-color: #FFEAA8;"></div>
-    <div class="rectangle" style="background-color: #FFBCBC;"></div>
-
-    <h1><a href="/about" style="font-size: 21px!important; font-weight: 500!important;">hi, i'm charlie.</a></h1>
-
-    <div class="nav-text-links">
-      <a href="/">home</a>
-      <a style="margin-left: 32px;" href="/about">about</a>
-    </div>
+  <div class="title">
+    <a href="/about">hi, i'm </a><a href="/about" style="color: #EAB9B2;
+      ">charlie.</a><a href="/about"> i'm a senior ux designer in canada. i design for humans.
+    </a>
+  </div>
 
   </div>
  
-  <div class="superpeer">
-    <a class="superpeer" href="https://youtu.be/RhX0u3hMMBU" target="_blank">How I Became A UX Designer</a><br />
-    <a class="superpeer" href="https://www.youtube.com/channel/UCfO0E9dcOzlse-WwrzwBu5w" target="_blank">My YouTube Channel</a><br />
-    <a class="superpeer" href="https://superpeer.com/charlicheung" target="_blank">1:1 Mentorship</a><br />
-    <a class="superpeer" href="https://dribbble.com/charli_cheung" target="_blank">Dribbble</a><br />
+  <div class="iglinks">
+    <a class="iglinks" href="https://youtu.be/RhX0u3hMMBU" target="_blank">
+      How I Became A UX Designer
+    </a>
+    <br />
+    <a class="iglinks" style="padding: 24px 68px;" href="https://www.youtube.com/channel/UCfO0E9dcOzlse-WwrzwBu5w" target="_blank">
+      My YouTube Channel
+    </a>
+    <br />
+    <a class="iglinks" style="padding: 24px 99px;" href="https://superpeer.com/charlicheung" target="_blank">
+      1:1 Mentorship
+    </a>
+    <br />
+    <a class="iglinks" style="padding: 24px 135px;" href="https://dribbble.com/charli_cheung" target="_blank">
+      Dribbble
+    </a>
+    <br />
   </div>
 </div>
 
-<div class="footer">
+<div class="contact" style="top: 375px;">
+  <a href="/contact">contact</a>
+  <a href="/contact" style="color: #EAB9B2;"> me.</a>
   <br />
-  © charlie cheung 2021
+  <a href="https://dribbble.com/charli_cheung" target="_blank"><img src="images/Dribbble.png" alt="Dribbble" /></a>
+  <a href="https://www.instagram.com/charli.ux/" style="margin-left: 20px;"  target="_blank"><img src="images/instagram.png" alt="Instagram" /></a>
+  <a href="https://ca.linkedin.com/in/charlie-cheung" style="margin-left: 20px;"  target="_blank"><img src="images/linkedin.png" alt="linkedin" /></a>
+  <a href="https://www.youtube.com/c/charlicheung" style="margin-left: 20px;"  target="_blank"><img src="images/youtube.png" alt="youtube" /></a>
+  <a href="/contact" style="margin-left: 20px; height: 20px!important; width:100%!important;" ><img src="images/email.png" alt="email" /></a>
+  
+  <p>charliektcheung@gmail.com</p>
+</div>
+
+
+<div class="footer">
+© charlie cheung 2021
 </div>
 
 </body>
