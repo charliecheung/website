@@ -170,6 +170,9 @@ a:hover {
   .portfolio p {
     font-size: 24px;
   }
+  .links {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -183,6 +186,9 @@ a:hover {
   .portfolio p {
     font-size: 24px;
   }
+  .links {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -190,23 +196,38 @@ a:hover {
     left: 8%;
     width: 80%;
   }
+  .links a {
+    left: 5%;
+    font-size: 10px;
+  }
   .portfolio {
-    height: 2150px;
+    height: 1740px;
   }
   .portfolio p {
     font-size: 36px;
-    margin-left: -6%;
+    margin-left: -26%;
+    margin-top: -25%;
+  }
+  .portfolio-text {
+    text-align: center;
   }
   .portfolio-item {
     width: 67vw;
-    margin-left: 85px!important;
+    margin-left: 62px!important;
     margin-top: 164px;
-    height: 430px;
+    height: 320px;
   }
   .portfolio-item a {
-    line-height: 44px;
+    line-height: 24px;
+    font-size: 16px;
+    margin-left: 0px!important;
   }
   .contact {
     left: 8%;
+    font-size: 36px;
+    top: 500px;
+  }
+  .links {
+    font-size: 10px;
   }
 }
