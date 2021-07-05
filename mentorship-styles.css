@@ -5,9 +5,9 @@ body {
   
   .mentorship {
     position: relative;
-    top: 500px;
+    top: 340px;
     width: 100%;
-    height: 960px;
+    height: 880px;
     background-color: #FAEEEB;
   }
   
@@ -49,7 +49,7 @@ body {
   
   @media screen and (max-width: 992px) {
     .mentorship {
-      height: 1700px;
+      height: 1080px;
     }
     .mentorship p {
       font-size: 36px;
