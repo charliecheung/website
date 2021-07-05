@@ -29,7 +29,7 @@ a:hover {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #221D1C;
+  color: #2E2D2B;
 }
 
 .links a:hover {
@@ -50,12 +50,12 @@ a:hover {
   font-size: 64px;
   line-height: 77px;
   letter-spacing: 0.04em;
-  color: #221D1C;
+  color: #2E2D2B;
 }
 
 .portfolio {
   position: relative;
-  top: 500px;
+  top: 400px;
   width: 100%;
   height: 1270px;
   background-color: #FAEEEB;

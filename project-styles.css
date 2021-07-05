@@ -7,7 +7,7 @@ em {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 2em;
-  color: #221D1C;
+  color: #2E2D2B;
   text-align: center!important;
 }
 
@@ -46,7 +46,7 @@ em {
   font-weight: 500;
   font-size: 1em;
   width: 70%;
-  color: #221D1C;
+  color: #2E2D2B;
   line-height: 1.5em;
 }
 
@@ -55,7 +55,7 @@ em {
   font-weight: 500;
   font-size: 1em;
   line-height: 20px;
-  color: #221D1C;
+  color: #2E2D2B;
 }
 
 .project img {
@@ -78,7 +78,7 @@ h4 {
   font-size: 1em;
   text-align: left;
   width: 80%;
-  color: #221D1C;
+  color: #2E2D2B;
 }
 
 h5 {
@@ -87,7 +87,7 @@ h5 {
   font-size: 1.2em;
   text-align: left;
   width: 80%;
-  color: #221D1C;
+  color: #2E2D2B;
 }
 
 .project-links {
@@ -120,7 +120,7 @@ h5 {
 .project-links a:hover {
   color: #E19392 !important;
   background-color: #FFFFFF!important;
-  border: 1px solid #221D1C;
+  border: 1px solid #2E2D2B;
   text-decoration: none;
 }
 
