@@ -119,7 +119,7 @@ a:hover {
 
 .contact {
   position: relative;
-  top: 43vh;
+  top: 55vh;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -232,7 +232,6 @@ a:hover {
     .contact {
       left: 8%;
       font-size: 36px;
-      top: 48vh;
     }
     .links {
       font-size: 10px;
