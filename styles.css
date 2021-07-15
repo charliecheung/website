@@ -71,7 +71,7 @@ a:hover {
   letter-spacing: 0.04em;
   color: #FCFCFC;
   left: 7vw;
-  top: 160px;
+  top: 5vw;
 }
 
 .portfolio-item {
@@ -81,7 +81,7 @@ a:hover {
   margin-left: 44px;
   background-color:#FCFCFC;
   width: 26vw;
-  height: 62vh;
+  /* height: 62vh; */
   padding-bottom: 50px;
 }
 
@@ -99,10 +99,14 @@ a:hover {
   text-transform: none;
   font-family: 'Lato', sans-serif;
   font-size: 24px;
-  line-height: 88px;
   letter-spacing: 0.02em;
   color: #2E2D2B;
-  margin-left: 5vw;
+}
+
+.portfolio-text {
+  text-align: left;
+  width: 41%;
+  margin-left: 2vw;
 }
 
 .portfolio-text a:hover {
@@ -201,20 +205,24 @@ a:hover {
       font-size: 10px;
     }
     .portfolio {
-      height: 205vh;
+      height: 212vh;
     }
     .portfolio p {
       font-size: 36px;
       margin-top: -25%;
+      top: 15vw;
     }
     .portfolio-text {
-      text-align: center;
+      margin-left: 5vw;
+      margin-top: 3vw;
+      font-size: 16px;
+      width: 45%;
     }
     .portfolio-item {
       width: 67vw;
       margin-left: 62px!important;
-      margin-top: 32vw;
-      height: 45vh;
+      margin-top: 19vw;
+      /* height: 41vh; */
     }
     .portfolio-item a {
       line-height: 24px;
@@ -230,8 +238,5 @@ a:hover {
       font-size: 10px;
     }
   }
-  
-  .links {
-    font-size: 10px;
-  }
+
 }
