@@ -39,7 +39,7 @@ a:hover {
 .title {
   text-align: left;
   position: relative;
-  left: 135px;
+  left: 7vw;
   top: 185px;
 }
 
@@ -70,7 +70,7 @@ a:hover {
   line-height: 77px;
   letter-spacing: 0.04em;
   color: #FCFCFC;
-  left: 135px;
+  left: 7vw;
   top: 160px;
 }
 
@@ -102,7 +102,7 @@ a:hover {
   line-height: 88px;
   letter-spacing: 0.02em;
   color: #2E2D2B;
-  margin-left: 65px;
+  margin-left: 7vw;
 }
 
 .portfolio-text a:hover {
@@ -205,7 +205,6 @@ a:hover {
     }
     .portfolio p {
       font-size: 36px;
-      margin-left: -26%;
       margin-top: -25%;
     }
     .portfolio-text {
@@ -215,7 +214,7 @@ a:hover {
       width: 67vw;
       margin-left: 62px!important;
       margin-top: 32vw;
-      height: 42vh;
+      height: 45vh;
     }
     .portfolio-item a {
       line-height: 24px;
