@@ -41,6 +41,7 @@ a:hover {
   position: relative;
   left: 7vw;
   top: 185px;
+  width: 76vw;
 }
 
 .title a {
@@ -128,7 +129,7 @@ a:hover {
   letter-spacing: 0.04em;
   color: #2E2D2B;
   left: 135px;
-  padding-bottom: 158px;
+  padding-bottom: 108px;
 }
 
 .contact a {
