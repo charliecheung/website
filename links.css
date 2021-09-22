@@ -104,6 +104,7 @@ body{
   }
   .links a{
     margin-left: 12.5vh;
+    font-size: 48px;
   }
   .footer {
     bottom: -141vw;
