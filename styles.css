@@ -219,7 +219,6 @@ h1 {
 .img_container {
   width: 75vw;
   margin: 20px auto;
-  margin-top: 19vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -483,7 +482,7 @@ input:checked + .slide-container .nav label { display: block; }
     margin-top: 19vh;
   }
   .img_container {
-    margin-top: 11vh;
+    margin-top: 0vh;
     height: 18%;
   }
   .columns .column .two-column{
