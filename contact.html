@@ -1,87 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>  
-  <meta name="description" content="portfolio website of charlie cheung">
-  <meta property="og:title" content="charlie cheung | ux designer" />
-  <meta property="og:url" content="https://www.charliecheung.com/" />
-  <meta property="og:description" content="portfolio website of charlie cheung">
-  <meta property="og:image" content="images/logo.png">
-  <meta property="og:type" content="article" />
+  <link rel="icon" type="image/png" href="https://cdn.dribbble.com/users/4182895/avatars/normal/f07f6dc88c4a5c8c98c4664b618b8bb3.jpg?1593374157"/>
  
-  <title>contact.</title>
+  <title>Charlie Cheung | Contact</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700,800" rel="stylesheet">
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Style-CSS -->
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <link rel="stylesheet" type="text/css" href="contact-styles.css" />
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /> 
-  <!-- Bootstrap-Core-CSS -->
 
 </head>
 <body>
-  <div class="links">
-    <a style="margin-left: 32px; margin-right: 32px;" href="https://drive.google.com/file/d/1F6MEl1RcbkNN6DwQ9uDUJBqOtfxFDQwG/view?usp=sharing" target="_blank">resume</a>
-    <a style="color: #EAB9B2; margin-left: 32px; text-decoration: underline 2px #EAB9B2; text-underline-offset: 4px;" href="/contact">contact</a>
-    <a style="margin-left: 32px;" href="/mentorship.html">mentorship</a>
-    <a style="margin-left: 32px;" href="/about">about</a>
-    <a style="margin-left: 32px;" href="/">work</a>
+<div class="sidebar">
+  <div class="sidebar-sm">
+    <a href="https://dribbble.com/charli_cheung" target="_blank">
+      <img src="images/social media/dribbble_black.svg" alt="Dribbble" />
+    </a>
+    <a href="https://www.instagram.com/charli.ux/" target="_blank">
+      <img src="images/social media/instagram_black.svg" alt="Instagram" />
+    </a>
+    <a href="https://ca.linkedin.com/in/charlie-cheung" target="_blank">
+      <img src="images/social media/linkedin_black.svg" alt="LinkedIn" />
+    </a>
+    <a href="https://www.youtube.com/c/charlicheung" target="_blank">
+      <img src="images/social media/youtube_black.svg" alt="YouTube" />
+    </a>
+    <a href="/contact">
+      <img src="images/social media/email_black.svg" alt="Email" />
+    </a>
   </div>
+</div>
 
-  <div class="title">
-    <a href="/about">contact.</a>
+<div class="header">
+  <img src="images/profileImage.png" alt="profileImage" />
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="/">home</a></li>
+    <li><a href="/about">about</a></li>
+    <li><a href="/work">work</a></li>
+    <!-- <li><a href="/learndesign">learn design</a></li> -->
+    <li><a href="ETSY">shop</a></li>
+    <li><a href="/contact" style="text-decoration: underline;">contact</a></li>
+  </ul>
+</div>
+
+<div class="title">
+  Contact.
+  <br />
+  <br />
+</div>
+
+<div class="contact-form">
+  <p>
+    Please check out the FAQ below before submitting your form.
+  </p>
+
+  <form name="contact" method="POST" data-netlify="true" netlify action="/contact-success.html">
+  <table>
+    <tr>
+      <td><label>Name:</label></td>
+      <td><input type="text" name="name" /></td>
+    </tr>
+    <tr>
+      <td><label>Email Address:</label></td>
+      <td><input type="email" name="email" /></td>
+    </tr>
+    <tr>
+      <td><label>Your Message:</label></td>
+      <td><textarea name="message"></textarea></td>
+    </tr>
+  </table>
+  <p>
+    <button type="submit">submit</button>
+  </p>
+  </form>
+</div>
+
+<div class="faq">
+  FAQ
+  <p class="question">
+    Can I interview you for my project/podcast/channel/blog?
+  </p>
+  <p class="answer">
+    Due to time constraints, it is hard for me to take part in every interview that I am asked to be in. I hope some of these questions and answers in this FAQ can help you out. If you believe I would be a great fit, please feel free to email charlicheung.ux@gmail.com with the subject line “Interview Request”. 
+  </p>
+  <br />
+
+  <p class="question">
+    Can I set up a 1:1 with you?
+  </p>
+  <p class="answer">
+    For sure! Select a time that works for you using the Superpeer link <a href="https://superpeer.com/charlicheung">here</a>. If timezones are an issue, please email charlicheung.ux@gmail.com with the subject line “Superpeer 1:1” and we can find a more suitable time to chat.
+  </p>
+  <br />
+
+  <p class="question">
+    Can I send you something?
+  </p>
+  <p class="answer">
+    Please feel free to email charlicheung.ux@gmail.com with a mailing address request.
+  </p>
+  <br />
+
+  <p class="question">
+    I have a question regarding my shop order.
+  </p>
+  <p class="answer">
+    Please message me on my Etsy store - Created by Charli
+  </p>
+  <br />
+
+  <p class="question">
+    What did you study in school?
+  </p>
+  <p class="answer">
+    I completed a Bachelors of Science in Computer Science. My favourite courses were in Human-Computer Interaction, Human-Robot Interaction, and designing algorithms. 
+  </p>
+  <br />
+
+  <p class="question">
+    How do you film/edit your videos?
+  </p>
+  <p class="answer">
+    Most of my filming is done on my Canon EOS M100 and I use Adobe Premiere Pro to edit.
+  </p>
+  <br />
+
+  <p class="question">
+    Can you share with me your first case study/resume?
+  </p>
+  <p class="answer">
+    Of course! I have videos of both on my YouTube channel. To view my first case study, click on the link <a href="https://www.youtube.com/watch?v=pePH-NMw7Ow">here</a> and for my first resume, check out this link <a href="https://www.youtube.com/watch?v=XvnEzbiKlAg">here</a>.
+  </p>
+  <br />
+
+  <p class="question">
+    Can you review my portfolio/resume?
+  </p>
+  <p class="answer">
+    I do portfolio and resume reviews on Superpeer. Please book a time with me using the link <a href="https://superpeer.com/charlicheung">here</a>.
+  </p>
+</div>
+
+<div class="footer" style="bottom:-10vw;">
+  <div class="sm-links">
+    <a href="https://dribbble.com/charli_cheung" target="_blank">
+      <img src="images/social media/dribbble_black.svg" alt="Dribbble" />
+    </a>
+    <a href="https://www.instagram.com/charli.ux/" style="margin-left: 20px;"  target="_blank">
+      <img src="images/social media/instagram_black.svg" alt="Instagram" />
+    </a>
+    <a href="https://ca.linkedin.com/in/charlie-cheung" style="margin-left: 20px;"  target="_blank">
+      <img src="images/social media/linkedin_black.svg" alt="LinkedIn" />
+    </a>
+    <a href="https://www.youtube.com/c/charlicheung" style="margin-left: 20px;"  target="_blank">
+      <img src="images/social media/youtube_black.svg" alt="YouTube" />
+    </a>
+    <a href="/contact" style="margin-left: 20px;">
+      <img src="images/social media/email_black.svg" alt="Email" />
+    </a>
   </div>
-
-  </div>
-
-  <div class="contact-form">
-    <br />
-    <p style="font-size: 24px; width: 75%; line-height: 32px;">
-      For questions, collaboration, and business inquiries, please fill out the form below.
-    </p>
-
-    <form name="contact" method="POST" data-netlify="true" netlify action="/contact-success.html">
-    <table>
-      <tr>
-        <td><label>name:</label></td>
-        <td><input type="text" name="name" /></td>
-      </tr>
-      <tr>
-        <td><label>email:</label></td>
-        <td><input type="email" name="email" /></td>
-      </tr>
-      <tr>
-        <td><label>message:</label></td>
-        <td><textarea name="message"></textarea></td>
-      </tr>
-    </table>
-    <p>
-      <button type="submit">send</button>
-    </p>
-    </form>
-  </div>
-
-  <div style="top: 465px;" class="contact">
-    <a href="/contact">contact</a>
-    <a href="/contact" style="color: #EAB9B2;"> me.</a>
-    <br />
-    <a href="https://dribbble.com/charli_cheung" target="_blank"><img src="images/Dribbble.png" alt="Dribbble" /></a>
-    <a href="https://www.instagram.com/charli.ux/" style="margin-left: 20px;"  target="_blank"><img src="images/instagram.png" alt="Instagram" /></a>
-    <a href="https://ca.linkedin.com/in/charlie-cheung" style="margin-left: 20px;"  target="_blank"><img src="images/linkedin.png" alt="linkedin" /></a>
-    <a href="https://www.youtube.com/c/charlicheung" style="margin-left: 20px;"  target="_blank"><img src="images/youtube.png" alt="youtube" /></a>
-    <a href="/contact" style="margin-left: 20px; height: 20px!important; width:100%!important;" ><img src="images/email.png" alt="email" /></a>
-    
-    <p>charliektcheung@gmail.com</p>
-  </div>
-
-
-<div class="footer">
-  © charlie cheung 2021
+  <p>©charlie cheung 2021</p>
 </div>
 
 </body>

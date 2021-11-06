@@ -1,70 +1,68 @@
-body {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
 .contact-form {
   position: relative;
-  top: 340px;
-  width: 100%;
-  height: 880px;
-  background-color: #FAEEEB;
+  top: -10vw;
+  left: 12vw;
 }
 
 .contact-form p {
   position: relative;
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 77px;
+  font-size: 24px;
   letter-spacing: 0.04em;
-  color: #884A45;
-  left: 135px;
-  top: 160px;
+  color: #221D1C;
 }
 
 table {
-  margin-top: 210px;
-  margin-left: 140px;
+  margin-top: 8vh;
 }
 
 label {
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 700;
   letter-spacing: 0.04em;
   font-size: 24PX;
   margin-top: 2.5vh;
-  color: #884A45;
+  color: #221D1C;
 }
 
-input {
+input, select {
   float: right;
   margin-top: 10px;
   width: 26vw;
   height: 32px;
-  border: 1px solid #fcfcfc;
+  border: 1px solid #221D1C;
+  border-radius: 19px;
+  background-color: #F4F4F4;
+  padding: 0px 20px;
+  font-size: 16px;
 }
 
 textarea {
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   margin-top: 10px;
   margin-left: 5vw;
   width: 26vw;
   height: 12vh;
-  border: 1px solid #FCFCFC;
+  border: 1px solid #221D1C;
+  border-radius: 20px;
+  background-color: #F4F4F4;
+  padding: 10px 20px;
+  font-size: 16px;
 }
 
 button {
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 500;
   letter-spacing: 0.04em;
   font-size: 24PX;
-  color: #2E2D2B;
-  background-color: #FCFCFC;
+  color: #FFFFFE;
+  background-color: #EAB9B2;
   border: 1px solid #FCFCFC;
   transition: 0.3s ease-in-out;
-  padding: 0px 64px;
+  padding: 8px 64px;
+  border-radius: 198px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -73,15 +71,50 @@ button:hover {
   background-color: #E19392;
 }
 
+.faq {
+  position: relative;
+  top: 0vw;
+  left: 12vw;
+  width: 64vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  font-size: 40PX;
+  color: #221D1C;
+}
+
+.question {
+  font-size: 24px;
+}
+
+.answer {
+  font-size: 16px;
+  width: 80%;
+}
+
 @media screen and (max-width: 992px) {
   .contact-form {
-    height: 990px;
+    width: 64vw;
+    top: -200px;
   }
   .contact-form p {
-    font-size: 36px;
-    margin-left: -97px;
+    font-size: 16px;
   }
   label {
-    margin-left: -100px;
+    font-size: 16px;
+  }
+  button {
+    font-size: 16px;
+    padding: 8px 34px;
+  }
+  .faq {
+    top: -30vw;
+    font-size: 30px;
+  }
+  .question {
+    font-size: 18px;
+  }
+  .answer {
+    font-size: 16px;
   }
 }

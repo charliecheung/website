@@ -4,7 +4,7 @@ body {
 }
 
 em {
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 500;
   font-size: 2em;
   color: #2E2D2B;
@@ -41,7 +41,7 @@ em {
 }
 
 .project p {
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1em;
   width: 70%;
@@ -50,7 +50,7 @@ em {
 }
 
 .project li {
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1em;
   line-height: 20px;
@@ -64,14 +64,14 @@ em {
 }
 
 h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 700;
   letter-spacing: 0.04em;
-  color: #E19392;
+  color: #2E2D2B;
 }
 
 h4 {
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 300;
   letter-spacing: 0.04em;
   font-size: 1em;
@@ -81,7 +81,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 600;
   font-size: 1.2em;
   text-align: left;
@@ -96,9 +96,9 @@ h5 {
 }
 
 .project-links a {
-  color: #FCFCFC !important;
-  background: #E19392;
-  font-family: 'Lato', sans-serif;
+  color: #FFFFFE !important;
+  background: #EAB9B2;
+  font-family: Helvetica, sans-serif;
   font-size: 1em;
   padding: 10px 0 10px 0;
   display: inline-block;
@@ -113,11 +113,11 @@ h5 {
 }
 
 .project a:hover {
-  color: #E19392;
+  color: #EAB9B2;
 }
 
 .project-links a:hover {
-  color: #E19392 !important;
+  color: #EAB9B2 !important;
   background-color: #FFFFFF!important;
   border: 1px solid #2E2D2B;
   text-decoration: none;
@@ -135,5 +135,11 @@ h5 {
   .project img {
     width: 100%;
     margin-left: -40px;
+  }
+  h3 {
+    WIDTH: 70%;
+  }
+  .floater > img {
+    left: 0;
   }
 }

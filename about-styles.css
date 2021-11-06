@@ -1,72 +1,25 @@
-body {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
 .about {
   position: relative;
-  top: 340px;
-  width: 100%;
-  height: 880px;
-  background-color: #FAEEEB;
-}
-
-.about p {
-  position: relative;
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 77px;
+  top: -10vw;
+  left: 12vw;
+  width: 64vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
   letter-spacing: 0.04em;
-  color: #884A45;
-  left: 135px;
-  top: 160px;
+  font-size: 40PX;
+  color: #221D1C;
 }
 
-.about-contact {
-  position: relative;
-  top: 685px;
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 77px;
-  letter-spacing: 0.04em;
-  color: #2E2D2B;
-  left: 135px;
-  padding-bottom: 158px;
-}
-
-.about-contact a {
-  color: #2E2D2B;
-}
-
-.about-contact img{
-  display: inline-block;
-  height: 32px;
-}
-
-.about-contact p {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 19px;
-  letter-spacing: 0.02em;
-  color: #EAB9B2;
+.about-text {
+  font-size: 16PX;
 }
 
 @media screen and (max-width: 992px) {
   .about {
-    height: 1870px;
+    top: -30vw;
+    font-size: 30px;
   }
-  .about p {
-    font-size: 36px;
-    margin-left: -97px;
-  }
-  .about-contact {
-    left: 8%;
-    font-size: 36px;
-    top: 500px;
+  .about-text {
+    font-size: 16px;
   }
 }
