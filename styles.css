@@ -264,7 +264,6 @@ h1 {
   font-weight: 800;
   font-size: 54px;
   line-height: 66px;
-  letter-spacing: 0.02em;
   color: #221D1C;
   margin-left: 12vw;
 }
@@ -344,13 +343,11 @@ ul.slides input {
   min-width: 100%;
   height: 100%;
   margin-left: 7vw;
-  font-family: Lato;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 147.78%;
   text-align: center;
-  letter-spacing: 0.04em;
 }
 
 .carousel-controls {
@@ -481,6 +478,11 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 32px;
     margin-top: 19vh;
   }
+
+.title a {
+  font-size: 16px;
+  padding: 8px 21px;
+}
   .img_container {
     margin-top: 0vh;
     height: 18%;
@@ -537,7 +539,7 @@ input:checked + .slide-container .nav label { display: block; }
 .wrapper {
 	padding: 5px;
 	max-width: 960px;
-	width: 95%;
+	width: 93%;
 	margin: 20px auto;
   font-size: 20px;
 }
