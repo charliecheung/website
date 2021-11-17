@@ -157,7 +157,7 @@ a {
 }
 
 .title {
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-family: "Helvetica Neue";
   font-weight: 800;
   font-size: 64px;
   letter-spacing: 0.02em;
@@ -260,7 +260,7 @@ h1 {
   width: 50%;
   height: 100%;
   margin-top: 0px;
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-family: "Helvetica Neue";
   font-weight: 800;
   font-size: 54px;
   line-height: 66px;
@@ -280,7 +280,7 @@ h1 {
 
 .offers {
   background-color: #221D1C;
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-family: "Helvetica Neue";
   font-weight: 800;
   font-size: 54px;
   color: #F4F4F4;
@@ -295,7 +295,7 @@ h1 {
 .carousel {
   margin-left: 15%;
   margin-right: 15%;
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-family: "Helvetica Neue";
   font-weight: 800;
   font-size: 54px;
   letter-spacing: 0.02em;
@@ -431,7 +431,7 @@ input:checked + .slide-container .nav label { display: block; }
 
 .jam {
   background-color: #221D1C;
-  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  font-family: "Helvetica Neue";
   font-weight: 800;
   font-size: 54px;
   color: #F4F4F4;
