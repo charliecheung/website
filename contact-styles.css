@@ -66,9 +66,8 @@ button {
 }
 
 button:hover {
-  border: 1px solid #E19392;
   color: #FCFCFC;
-  background-color: #E19392;
+  background-color: #221D1C;
 }
 
 .faq {
