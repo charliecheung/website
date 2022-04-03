@@ -27,7 +27,7 @@
 }
 
 .portfolio-item img {
-    height: 100%;
+    max-width: 80%;
 }
 
   @media screen and (max-width: 992px) {
