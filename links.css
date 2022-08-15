@@ -64,7 +64,7 @@ body{
 
 .footer{
   position: relative;
-  bottom: -101vw;
+  bottom: -187vw;
   background-color: #221D1C;
   height: 100%;
   width: 100%;
@@ -107,7 +107,7 @@ body{
     font-size: 40px;
   }
   .footer {
-    bottom: -171vw;
+    bottom: -187vw;
     height: 32vh;
   }
 }

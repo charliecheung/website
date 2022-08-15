@@ -289,7 +289,7 @@ h1 {
 }
 
 .offers p {
-  margin-left: 12vw;
+  margin-left: 15vw;
   padding-top: 3vw;
 }
 
@@ -306,7 +306,7 @@ h1 {
 ul.slides {
   display: block;
   position: relative;
-  height: 27vh;
+  height: 37vh;
   margin: 4VW;
   padding: 0;
   overflow: hidden;
@@ -401,8 +401,8 @@ ul.slides input {
 
 .carousel-dots .carousel-dot {
   display: inline-block;
-  width: 19px;
-  height: 19px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   background-color: #C4C4C4;
   opacity: 0.5;
@@ -486,7 +486,9 @@ input:checked + .slide-container .nav label { display: block; }
 }
   .img_container {
     margin-top: 0vh;
-    height: 18%;
+    height: 49%;
+    width: 123%;
+}
   }
   .columns .column .two-column{
 		margin-bottom: 5px;
@@ -511,16 +513,16 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 46px;
   }
   .jam {
-    font-size: 21px;
+    font-size: 41px
   }
   .jam p {
     width: 80%;
   }
   ul.slides {
-    height: 117vh;
+    height: 31vh;
   }
   .carousel-dots {
-    top: 106vh;
+    top: 40vh;
   }
   .carousel-dot {
     width: 10px;
@@ -575,4 +577,10 @@ input:checked + .slide-container .nav label { display: block; }
 	padding: 10px;
 	&:first-child { margin-left: 0; }
 	&:last-child { margin-right: 0; }
+}
+
+@media (min-width: 1200px) {
+  .carousel-dots {
+    top: 26vh;
+  }
 }
