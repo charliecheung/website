@@ -9,6 +9,7 @@
 
   <!-- Style-CSS -->
   <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="contact-styles.css" />
 
 </head>
 <body>
@@ -43,11 +44,10 @@
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
   <ul class="menu">
-    <li><a href="/" style="text-decoration: underline;">home</a></li>
+    <li><a href="/">home</a><div style="height: 4px; width: 45px; background-color: #EAB9B2; margin-top: -5vh; margin-left: 3vh;"></div></li>
     <li><a href="/about">about</a></li>
     <li><a href="/work">work</a></li>
     <li><a target="_blank" href="https://www.etsy.com/ca/shop/shopcharli">shop</a></li>
-    <li><a href="/contact">contact</a></li>
   </ul>
 </div>
 
@@ -209,7 +209,28 @@
 </div>
 
 <div class="jam">
-  <p>Let's work together. Email me at <a href="mailto:charlicheung.ux@gmail.com">charlicheung.ux@gmail.com</a>, fill out my <a href="/contact.html">contact form</a>, or DM me on Instagram <a href="https://www.instagram.com/charli.ux/">@charli.ux</a></p>
+  <p>Let's work together. Fill out my contact form below or DM me on Instagram <a href="https://www.instagram.com/charli.ux/">@charli.ux</a></p>
+  <div class="contact-form">  
+    <form name="contact" method="POST" data-netlify="true" netlify action="/contact-success.html">
+    <table>
+      <tr>
+        <td><label>Name:</label></td>
+        <td><input type="text" name="name" /></td>
+      </tr>
+      <tr>
+        <td><label>Email Address:</label></td>
+        <td><input type="email" name="email" /></td>
+      </tr>
+      <tr>
+        <td><label>Your Message:</label></td>
+        <td><textarea name="message"></textarea></td>
+      </tr>
+    </table>
+    <p>
+      <button type="submit">submit</button>
+    </p>
+    </form>
+  </div>
 </div>
 
 <div class="footer">

@@ -1,11 +1,21 @@
 .contact-form {
   position: relative;
-  top: -10vw;
-  left: 12vw;
+  margin-left: 12vw;
 }
 
 .contact-form p {
   position: relative;
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  color: #FFFFFE;
+}
+
+.contact-success p {
+  position: absolute;
+  margin-top: -25vh;
+  margin-left: 26vh;
   font-family: Helvetica, sans-serif;
   font-style: normal;
   font-size: 24px;
@@ -23,7 +33,7 @@ label {
   letter-spacing: 0.04em;
   font-size: 24PX;
   margin-top: 2.5vh;
-  color: #221D1C;
+  color: #FFFFFE;
 }
 
 input, select {

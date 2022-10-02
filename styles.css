@@ -29,7 +29,7 @@ html,body {
 }
 
 .sidebar-sm {
-  margin-top: 20vw;
+  margin-top: 16vw;
 }
 
 .sidebar a img {
@@ -169,7 +169,7 @@ a {
 }
 
 .title a {
-  background-color: #EAB9B2;
+  background-color: #221D1C;
   border-radius: 35px;
   text-decoration: none;
   font-size: 18px;
@@ -180,7 +180,7 @@ a {
 }
 
 .title a:hover {
-  background-color: #221D1C;
+  background-color: #EAB9B2;
   color: #FFFFFE;
   transition: all .2s ease-in-out;
 }
