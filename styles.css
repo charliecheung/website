@@ -464,7 +464,7 @@ input:checked + .slide-container .nav label { display: block; }
 
 .sm-links img {
   display: inline-block;
-  height: 100%;
+  width: 1%;
 }
 
 .footer a{
