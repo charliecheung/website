@@ -1,6 +1,7 @@
 .contact-form {
   position: relative;
   margin-left: 12vw;
+  margin-top: -9vw;
 }
 
 .contact-form p {
@@ -9,7 +10,7 @@
   font-style: normal;
   font-size: 24px;
   letter-spacing: 0.04em;
-  color: #FFFFFE;
+  color: #221D1C;
 }
 
 .contact-success p {
@@ -33,7 +34,7 @@ label {
   letter-spacing: 0.04em;
   font-size: 24PX;
   margin-top: 2.5vh;
-  color: #FFFFFE;
+  color: #221D1C;
 }
 
 input, select {
@@ -64,6 +65,7 @@ textarea {
 button {
   font-family: Helvetica, sans-serif;
   font-weight: 500;
+  margin-left: 21vw;
   letter-spacing: 0.04em;
   font-size: 24PX;
   color: #FFFFFE;
@@ -82,7 +84,7 @@ button:hover {
 
 .faq {
   position: relative;
-  top: 0vw;
+  top: 5vw;
   left: 12vw;
   width: 64vw;
   font-family: Helvetica, sans-serif;
