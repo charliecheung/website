@@ -1,6 +1,6 @@
 .contact-form {
   position: relative;
-  margin-left: 12vw;
+  margin-left: 16vw;
   margin-top: -9vw;
 }
 
@@ -9,8 +9,10 @@
   font-family: Helvetica, sans-serif;
   font-style: normal;
   font-size: 24px;
-  letter-spacing: 0.04em;
-  color: #221D1C;
+  color: #282D46;
+  letter-spacing: 0.48px;
+  width: 60%;
+  margin-bottom: 80px;
 }
 
 .contact-success p {
@@ -21,43 +23,39 @@
   font-style: normal;
   font-size: 24px;
   letter-spacing: 0.04em;
-  color: #221D1C;
-}
-
-table {
-  margin-top: 8vh;
+  color: #282D46;
 }
 
 label {
   font-family: Helvetica, sans-serif;
   font-weight: 700;
   letter-spacing: 0.04em;
-  font-size: 24PX;
+  font-size: 24px;
   margin-top: 2.5vh;
-  color: #221D1C;
+  color: #282D46;
 }
 
 input, select {
-  float: right;
   margin-top: 10px;
   width: 26vw;
   height: 32px;
-  border: 1px solid #221D1C;
-  border-radius: 19px;
-  background-color: #F4F4F4;
+  border: 1px solid #282D46;
+  border-radius: 8px;
+  background-color: #F0F4FF;
   padding: 0px 20px;
   font-size: 16px;
+  color: #FEF9F7;
+  margin-bottom: 24px;
 }
 
 textarea {
   font-family: Helvetica, sans-serif;
   margin-top: 10px;
-  margin-left: 5vw;
   width: 26vw;
   height: 12vh;
-  border: 1px solid #221D1C;
-  border-radius: 20px;
-  background-color: #F4F4F4;
+  border: 1px solid #282D46;
+  border-radius: 8px;
+  background-color: #F0F4FF;
   padding: 10px 20px;
   font-size: 16px;
 }
@@ -65,44 +63,24 @@ textarea {
 button {
   font-family: Helvetica, sans-serif;
   font-weight: 500;
-  margin-left: 21vw;
+  margin-left: 22vw;
   letter-spacing: 0.04em;
-  font-size: 24PX;
+  font-size: 16px;
   color: #FFFFFE;
-  background-color: #EAB9B2;
-  border: 1px solid #FCFCFC;
+  background-color: #282D46;
+  border: 1px solid #F0F4FF;
   transition: 0.3s ease-in-out;
-  padding: 8px 64px;
-  border-radius: 198px;
+  margin-top: 32px;
+  padding: 11px 32px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
 button:hover {
-  color: #FCFCFC;
-  background-color: #221D1C;
+  color: #FBFCFF;
+  background-color: #A3ABD0;
 }
 
-.faq {
-  position: relative;
-  top: 5vw;
-  left: 12vw;
-  width: 64vw;
-  font-family: Helvetica, sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  font-size: 40PX;
-  color: #221D1C;
-}
-
-.question {
-  font-size: 24px;
-}
-
-.answer {
-  font-size: 16px;
-  width: 80%;
-  letter-spacing: 0;
-}
 
 @media screen and (max-width: 992px) {
   .contact-form {
@@ -118,15 +96,5 @@ button:hover {
   button {
     font-size: 16px;
     padding: 8px 34px;
-  }
-  .faq {
-    top: -30vw;
-    font-size: 30px;
-  }
-  .question {
-    font-size: 18px;
-  }
-  .answer {
-    font-size: 16px;
   }
 }

@@ -1,16 +1,37 @@
-.about {
-  position: relative;
-  top: -10vw;
-  left: 12vw;
-  width: 54vw;
-  font-family: Helvetica, sans-serif;
+.about-title {
+  font-family: "Helvetica Neue";
   font-weight: 500;
-  font-size: 40PX;
-  color: #221D1C;
+  font-size: 32px;
+  letter-spacing: 0.02em;
+  color: #282D46;
+  margin-top: 27vh;
+  margin-left: 16vw;
+  width: 80%;
+  height: 5vh;
 }
 
-.about-text {
-  font-size: 16PX;
+.about-body {
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #282D46;
+  margin-top: 7vh;
+  margin-left: 16vw;
+  width: 60%;
+}
+
+.about-body a {
+color: #282D46;
+font-size: 32px;
+padding-top: 50px;
+font-family: Helvetica;
+letter-spacing: 0.64px;
+text-decoration-line: underline;
+}
+
+.about-body a:hover {
+  color: #A3ABD0;
 }
 
 @media screen and (max-width: 992px) {
