@@ -307,14 +307,13 @@ h1 {
 @media screen and (max-width: 992px) {
   .title {
     font-size: 32px;
-    margin-top: 19vh;
   }
   .title a {
     font-size: 16px;
     padding: 8px 21px;
   }
   .selectedWork {
-    margin-top: 12vh;
+    margin-top: 22vh;
   }
   .container {
     margin-top: 0;
