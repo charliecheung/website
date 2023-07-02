@@ -53,6 +53,7 @@ a {
 .header .menu-btn:hover {
   text-decoration: none;
   color: #282D46;
+  transition: all 0.5s ease;
 }
 
 .header img {
@@ -209,6 +210,7 @@ a {
 
 .selected-work-body a:hover {
   color: #A3ABD0;
+  transition: all 0.5s ease;
 }
 
 .col-complementary {
