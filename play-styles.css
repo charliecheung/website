@@ -30,7 +30,7 @@ margin-bottom:0;
     padding: 0px;
     float: left;
     z-index: 4;
-    max-width: 400px;
+    max-width: 21vw;
 }
 
 
@@ -48,8 +48,8 @@ margin-bottom:0;
 .caption-box .blur{
     background-color: #A3ABD0;
     opacity: 0.8;
-    height: 300px;
-    width: 400px;
+    height: 16vw;
+    width: 21vw;
     z-index: 5;
     position: absolute;
 }
@@ -62,8 +62,7 @@ margin-bottom:0;
     z-index: 10;
     color: #fff;
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 21vw;
     text-align: center;
     top:120px;
 }
